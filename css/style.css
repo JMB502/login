@@ -1,0 +1,89 @@
+*{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box ;
+}
+
+body{
+    background-color: deepskyblue;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    display: block;
+    border: 2px solid rgb(54, 13, 167);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.contenedor{
+    width: 500px;
+    padding: 5rem;
+    margin: 400px auto;
+    color:rgb(8, 86, 155);
+    background-color: gainsboro;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #e4e4e4;
+}
+
+label{
+    font-size: 20px;
+    float: left;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: aqua(243, 243, 243);
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(153, 43, 226);
+    color: #fff;
+}
+
+.Boton_Ingresar{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.error{
+    background-color: rgb(248, 37, 37);
+    border-radius: 5px;
+    padding: 2px;
+    color: #e4e4e4;
+}
+
+.success{
+    background-color: green;
+    border-radius: 5px;
+    padding: 2px;
+    color: #e4e4e4;
+}

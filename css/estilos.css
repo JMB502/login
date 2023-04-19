@@ -1,0 +1,105 @@
+body{
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box ;
+}
+
+form{
+    width: 500px;
+    border: 2px solid midnightblue ;
+    padding: 5rem;
+    background-color: gainsboro ;
+    border-radius: 20px;
+    border: none;
+    color: rgb(3, 88, 161);
+}
+
+h1{
+    display: block;
+    border: 2px solid rgb(54, 13, 167);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+label{
+    color: rgb(8, 86, 155);
+    font-size: 18px;
+    padding: 10px;
+    font-weight:300 ;
+
+
+}
+
+input{
+
+    display: block;
+    border: 2px solid;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+button{
+    float: right;
+    background-color:cornsilk;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 40% ;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black; 
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: white;
+
+}
+
+.error{
+
+    background-color: rgb(240, 159, 159);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+
+}
+
+
+
+
+
+
+
+
