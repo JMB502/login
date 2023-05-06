@@ -40,7 +40,7 @@ if (isset($_POST['usuario']) && isset($_POST['nombre_completo']) && isset($_POST
     }else {
          
 
-        $sql = "SELECT * FROM usuarios WHERE nombre_usuario = '$usuario'";
+        $sql = "SELECT * FROM usuarios WHERE nombre_completo = '$usuario'";
         $query = $conexion->query($sql);
 
         if (mysqli_num_rows($query) > 0) {
